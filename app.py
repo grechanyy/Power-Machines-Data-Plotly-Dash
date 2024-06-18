@@ -178,7 +178,7 @@ def update_total_count(selected_country, selected_equipment):
         x="Мощность",
         color="Тип турбины",
         hover_data=filtered_data.columns,
-        nbins=60,
+        nbins=65,
     )
     hist.update_layout(
         template=CHARTS_TEMPLATE, font_color="black", legend=dict(font_color="black")
